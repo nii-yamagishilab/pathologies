@@ -38,3 +38,5 @@ for split in 'train' 'dev'; do
     wc -l "${syn}"
   fi
 done
+
+ln -nfs vitaminc_synthetic vitc
