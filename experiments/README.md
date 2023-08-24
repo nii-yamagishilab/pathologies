@@ -82,10 +82,10 @@ Then, uncompress and place them in `experiments/`.
 You should see `{train,dev,test}.jsonl` as well as `train.reduced.jsonl`:
 ```shell
 wc -l data/covidfact/*.jsonl
-    419 /home/smg/canasai/expr/pathologies-dev/experiments/data/covidfact/dev.jsonl
-    404 /home/smg/canasai/expr/pathologies-dev/experiments/data/covidfact/test.jsonl
-   3263 /home/smg/canasai/expr/pathologies-dev/experiments/data/covidfact/train.jsonl
-   3263 /home/smg/canasai/expr/pathologies-dev/experiments/data/covidfact/train.reduced.jsonl
+    419 data/covidfact/dev.jsonl
+    404 data/covidfact/test.jsonl
+   3263 data/covidfact/train.jsonl
+   3263 data/covidfact/train.reduced.jsonl
    7349 total
 ```
 
